@@ -1,7 +1,6 @@
 // node_modules
 import React from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-import { connect } from 'react-redux';
 
 // components
 import Home from './views/Home';
@@ -9,9 +8,7 @@ import Home from './views/Home';
 // css
 import './App.css';
 
-function App(props) {
-	console.log('userId from Reducer =', props.userId);
-
+function App() {
 	return (
 		<Router>
 			<div className="App">
@@ -24,12 +21,4 @@ function App(props) {
 	);
 }
 
-const mapStateToProps = state => {
-	const { auth } = state;
-
-	return {
-		userId: auth.userId,
-	};
-};
-
-export default connect(mapStateToProps)(App);
+export default App;
