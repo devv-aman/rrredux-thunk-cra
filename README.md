@@ -1,7 +1,5 @@
 ### A React + Router + Redux (with thunk) + CSS (CRA) Boilerplate
 
-[![npm version](https://badge.fury.io/js/rrredux-thunk-cra@2x.png)](https://badge.fury.io/js/rrredux-thunk-cra)
-
 1. Clone the project `git clone https://github.com/entrepaman/rrredux-thunk-cra.git`
 2. Run `yarn` to download all dependencies
 3. Run `yarn start` to start the project on http://localhost:3000
