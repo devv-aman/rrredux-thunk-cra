@@ -1,16 +1,6 @@
 {
 	"name": "rrredux-thunk-cra",
 	"version": "0.1.0",
-	"author": "entrepaman <mnkrwork@example.com>",
-	"keywords": [
-		"react",
-		"redux",
-		"react-boilerplate"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/entrepaman/rrredux-thunk-cra.git"
-	},
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
@@ -23,9 +13,6 @@
 		"redux": "^4.0.5",
 		"redux-thunk": "^2.3.0",
 		"thunk": "^0.0.1"
-	},
-	"publishConfig": {
-		"registry": "https://registry.npmjs.org/"
 	},
 	"scripts": {
 		"start": "react-scripts start",
@@ -48,12 +35,5 @@
 			"last 1 safari version"
 		]
 	},
-	"description": "1. Clone the project `git clone https://github.com/entrepaman/rrredux-thunk-cra.git` 2. Run `yarn` to download all dependencies 3. Run `yarn start` to start the project on http://localhost:3000",
-	"bugs": {
-		"url": "https://github.com/entrepaman/rrredux-thunk-cra/issues",
-		"email": "mnkrwork@gmail.com"
-	},
-	"homepage": "https://github.com/entrepaman/rrredux-thunk-cra#readme",
-	"main": "index.js",
 	"license": "ISC"
 }
